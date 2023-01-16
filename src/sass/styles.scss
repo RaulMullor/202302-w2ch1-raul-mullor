@@ -1,0 +1,21 @@
+@use "variables/fonts";
+@use "variables/colors";
+@use "reset/reset";
+
+.button {
+  font-family: inherit;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.car-card {
+  background-color: colors.$color-primary--Bright-orange;
+  justify-content: space-between;
+  height: 100vh;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}

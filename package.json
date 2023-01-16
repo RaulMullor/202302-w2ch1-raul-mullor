@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/RaulMullor/202302-w2ch1-raul-mullor#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "husky": "^8.0.0",
     "parcel": "^2.8.2",
-    "rimraf": "^4.0.7",
-    "husky": "^8.0.0"
+    "rimraf": "^4.0.7"
   }
 }
-
