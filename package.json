@@ -25,5 +25,9 @@
     "husky": "^8.0.0",
     "parcel": "^2.8.2",
     "rimraf": "^4.0.7"
+  },
+  "dependencies": {
+    "@fontsource/big-shoulders-display": "^4.5.10",
+    "@fontsource/lexend-deca": "^4.5.13"
   }
 }

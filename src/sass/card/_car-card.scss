@@ -1,5 +1,6 @@
 @use "../variables/colors";
 @use "../reset/reset";
+@use "variables/fonts";
 
 body {
   display: flex;
@@ -16,8 +17,8 @@ body {
 .car-card {
   background-color: colors.$color-primary--Bright-orange;
   justify-content: space-between;
-  height: 100vh;
   width: 375px;
+  height: 1502px;
   display: flex;
   flex-direction: column;
   font-size: 15px;
