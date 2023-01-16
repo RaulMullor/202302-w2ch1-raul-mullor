@@ -1,0 +1,25 @@
+@use "../variables/colors";
+@use "../reset/reset";
+@use "variables/fonts";
+
+body {
+  display: flex;
+}
+.Info-button {
+  font-size: 15px;
+}
+.card-description {
+  justify-content: space-between;
+  display: flex;
+  font-size: 15px;
+}
+
+.car-card {
+  background-color: colors.$color-primary--Bright-orange;
+  justify-content: space-between;
+  width: 375px;
+  height: 1502px;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
