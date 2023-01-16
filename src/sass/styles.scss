@@ -1,6 +1,7 @@
 @use "variables/fonts";
 @use "variables/colors";
 @use "reset/reset";
+@use "card/car-card";
 
 .button {
   font-family: inherit;
@@ -8,14 +9,4 @@
   background-color: transparent;
   padding: 0;
   cursor: pointer;
-}
-
-.car-card {
-  background-color: colors.$color-primary--Bright-orange;
-  justify-content: space-between;
-  height: 100vh;
-  width: 375px;
-  display: flex;
-  flex-direction: column;
-  font-size: 15px;
 }

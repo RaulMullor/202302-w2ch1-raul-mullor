@@ -1,25 +1,24 @@
 @use "../variables/colors";
 @use "../reset/reset";
-@use "variables/fonts";
-
-body {
-  display: flex;
-}
-.Info-button {
-  font-size: 15px;
-}
-.card-description {
-  justify-content: space-between;
-  display: flex;
-  font-size: 15px;
-}
+@use "../variables/fonts";
 
 .car-card {
   background-color: colors.$color-primary--Bright-orange;
   justify-content: space-between;
-  width: 375px;
-  height: 1502px;
+  width: 320px;
+  height: 1325px;
   display: flex;
   flex-direction: column;
+  border-radius: 15px;
+  border: 3px solid red;
+}
+
+.info-button {
+  font-size: 15px;
+}
+
+.card-description {
+  justify-content: space-between;
+  display: flex;
   font-size: 15px;
 }
